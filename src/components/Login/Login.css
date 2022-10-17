@@ -1,0 +1,135 @@
+.form-container {
+    margin: 40px auto;
+    text-align: center;
+    width: 500px;
+    height: max-content;
+    padding: 25px 0;
+    background: #FFFFFF;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+}
+
+.form-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+    color: #2A414F;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-control label {
+    display: block;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.0015em;
+    color: #2A414F;
+}
+
+.form-control input {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    width: 415px;
+    height: 40px;
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+}
+
+.btn-submit {
+    margin-top: 20px;
+    width: 430px;
+    height: 50px;
+    border: none;
+    background: rgba(255, 153, 0, 0.3);
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+    color: #0E161A;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+    background: rgba(255, 153, 0, 0.6);
+    transition: 0.5s;
+}
+
+.error-text {
+    color: rgb(228, 64, 64);
+    font-size: 18px;
+}
+
+.success-text {
+    color: green;
+    font-size: 18px;
+}
+
+.create-btn {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.0025em;
+    color: #2A414F;
+}
+
+.create-btnlink {
+    text-decoration: none;
+}
+
+.account-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.0025em;
+    color: #FF9900;
+}
+
+.account-text:hover {
+    color: #f37c0c;
+    transition: 0.5s;
+}
+
+.or-line {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.hr-line {
+    width: 150px;
+    border-top: 2px solid rgba(128, 128, 128, 0.76);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.google-btn {
+    background-image: url(https://pngimg.com/uploads/google/google_PNG19644.png);
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position: center;
+    margin-top: 25px;
+    width: 420px;
+    height: 55px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.0025em;
+    color: #2A414F;
+    cursor: pointer;
+}
+
+.google-btn:hover {
+    background-color: #f1ec8a7a;
+    transition: 0.5s;
+}
