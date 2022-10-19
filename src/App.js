@@ -10,7 +10,7 @@ import { ProductsAndCartLoader } from './loaders/ProductsAndCartLoader';
 import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
 import Shipping from './components/Shipping/Shipping';
-
+import PrivateRoute from './Routes/PrivateRoute';
 
 function App() {
   const router = createBrowserRouter([
@@ -38,11 +38,11 @@ function App() {
         },
         {
           path: '/shipping',
-          element: <Shipping />
+          element: <PrivateRoute><Shipping /></PrivateRoute>
         },
         {
           path: '/inventory',
-          element: <Invetory />
+          element: <PrivateRoute><Invetory /></PrivateRoute>
         },
         {
           path: '/login',
