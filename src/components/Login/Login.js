@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../contexts/UserContext';
 import './Login.css'
@@ -20,7 +20,7 @@ const Login = () => {
 
         signIn(email, password)
             .then(result => {
-                const user = result.user;
+                // const user = result.user;
                 form.reset();
                 navigate(from, { replace: true })
             })
