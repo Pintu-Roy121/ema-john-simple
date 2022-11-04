@@ -14,6 +14,24 @@
     gap: 20px;
 }
 
+.pagination {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pagination button {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.pagination .selected {
+    background-color: gold;
+    border-color: goldenrod;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+}
+
 .cart-container {
     background-color: #FF99004D;
     padding: 20px;
